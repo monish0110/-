@@ -1,0 +1,173 @@
+.hero-textw{
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: none;
+    padding-top: 250px;
+    padding-left: 165px;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover; 
+    background-position: center;
+    
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image img{
+    width: auto;; 
+    height: 670; 
+    display: block; 
+    margin: 20px auto 0 auto; 
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    border-radius: 500px;
+    
+   
+
+}
+
+.hero-text {
+    padding: 20px;
+    flex: 1 1 300px; /* Flexible basis, minimum width */
+}
+
+
+.hero-textp{
+    font-size: 23px;
+    font-family: cursive;
+    
+}
+
+.but{
+    /*  */
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding-left: 290;
+  padding-top: 0;
+  
+}
+
+.tq{
+    font-size: 15px;
+    font-family: cursive;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom:350px;
+    
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+@media (max-width: 500px) {
+    .hero{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+
+
+    .hero-textw {
+        padding-top: 0.5; 
+        padding-left:14; 
+        font-size: 25px; 
+        text-align: center;
+    }
+
+    .but{
+        padding-left: 20px;
+        padding-bottom: 0;
+        width: auto;
+        height: 10px;
+    }
+
+    .hero-textp{
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 12;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .hero-image img{
+        width: auto;; 
+        height: 290;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-top: 0;
+        border-radius: 500px;
+    }
+
+    .tq{
+        padding-top: 80px;
+        padding-bottom: 0;
+        
+    }
+
+    #scrollAndPlay{
+        padding: 2px;
+        font-size: 12.5px;
+        padding-bottom: 0;
+        
+    }
+
+    .heart img{
+        width: auto;
+        height: 300;
+    }
+
+    .hero-image img{
+        padding-top: 0;
+        width: auto;
+        
+    }
+
+    #new{
+        padding: 2;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .new-but{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 65;
+    }
+
+    .heart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #section1 img{
+        width: 100vh;
+        height: 10px;
+    }
+}
+    
+
+    
+
+    
+
+
