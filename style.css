@@ -88,7 +88,7 @@ body{
     .hero-textw {
         padding-top: 0.5; 
         padding-left:14; 
-        font-size: 40px; 
+        font-size: 40; 
         text-align: center;
     }
 
@@ -102,7 +102,7 @@ body{
     .hero-textp{
         padding-left: 2px;
         padding-right: 2px;
-        font-size: 18;
+        font-size: 14;
         padding-top: 0;
         padding-bottom: 0;
     }
